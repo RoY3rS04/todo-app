@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo TS</title>
+    <link rel="stylesheet" href="/dist/output.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="body-bg flex items-center justify-center h-screen">
+    <section class="mx-auto p-5 bg-white">
+        <h1 class="text-2xl font-semibold">Todo App</h1>
+        <article class="flex flex-col gap-y-4 items-center">
+            <form id="addButton" class="mt-5 flex flex-col gap-y-3 w-[300px]">
+                <input name="title" class="py-4 px-2 rounded border" placeholder="Title" type="text">
+                <input name="description" class="py-4 px-2 rounded border" placeholder="Description" type="text">
+                <button class="py-3 px-2 bg-purple-600 rounded font-medium text-white">Add Todo</button>
+            </form>
+        </article>
+        <article id="todoList" class="flex flex-col gap-y-2 items'center">
+
+        </article>
+    </section>
+
+    <script type="module" src="../dist/todos.js"></script>
+</body>
+</html>
